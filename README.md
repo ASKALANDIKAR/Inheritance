@@ -22,6 +22,14 @@ This repository showcases different types of **Inheritance in Java**, organized 
 - Examples:
   - `Person → Employee → Manager`
   - `Device → Computer → Laptop`
+ 
+  ### 🔹Hierarchical Inheritance (`com.hierarchical_inheritance`)
+- Demonstrates Parent class properties can inherited by different Child Class.
+- Also containing Override, It is mention by `@Override` annotation in code
+- Example:
+    - `Animal --→ Dog`(override), `Animal --→ Cat`(override)  
+Main file: `Dog.java` or `Cat.java` under this package  
+📌 **Each subclass shares the same parent** (`Animal`) but overrides its behavior.
 
 ### 🔹 Hybrid Inheritance (`com.hybrid_inheritance`)
 - Combines more than one type of inheritance.
